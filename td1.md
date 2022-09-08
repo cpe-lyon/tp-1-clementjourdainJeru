@@ -35,4 +35,5 @@
 13.  Les deux fichiers peuvent se modifier entre eux, cependant la suppression de lien_phy entraîne la suppression du contenu de lien_sym
 14.  POur stopper le défilement de syslog il faut utiliser les raccourcis crtl+s et ctrl+q
 15.  Pour afficher les 5 première lignes, il faut taper `head -5 syslog`, pour les 15 dernières `tail -15 syslog`, et les lignes de 10 à 20 `gead -10 syslog | tail n+5`
-16.  
+16.  La commande `dmesg`affiche tous les messages, et `less`les affiche en terme de page
+17.  Le fichier `etc/passwd` regroupe 
