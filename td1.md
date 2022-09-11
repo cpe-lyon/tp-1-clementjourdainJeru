@@ -36,4 +36,9 @@
 14.  POur stopper le défilement de syslog il faut utiliser les raccourcis crtl+s et ctrl+q
 15.  Pour afficher les 5 première lignes, il faut taper `head -5 syslog`, pour les 15 dernières `tail -15 syslog`, et les lignes de 10 à 20 `gead -10 syslog | tail n+5`
 16.  La commande `dmesg`affiche tous les messages, et `less`les affiche en terme de page
-17.  Le fichier `etc/passwd` regroupe 
+17.  Le fichier `etc/passwd` regroupe une base de données textuelle d'informations sur les utilisateurs qui peuvent se connecter au système. La commande pour afficher dans le manuel est `man 5 passwd`
+18.  Pour afficher la première colonne dans le sens inverse, il faut taper `cat passwd | awk '{ print$1 }' | sort -r`
+19.  Pour compter le nombre d'utilisateurs, il faut taper `who | wc -l`
+20.  Pour compter le nombre de pages de manuel avec le mot conversion, il faut écrire `man -k conversion | wc -l`
+21.  Il faut taper `find -name passwd`
+22.  
