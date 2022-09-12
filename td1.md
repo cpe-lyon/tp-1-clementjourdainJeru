@@ -41,4 +41,22 @@
 19.  Pour compter le nombre d'utilisateurs, il faut taper `who | wc -l`
 20.  Pour compter le nombre de pages de manuel avec le mot conversion, il faut écrire `man -k conversion | wc -l`
 21.  Il faut taper `find -name passwd`
-22.  
+22.  Il faut taper `find -name passwd > ~/list_passwd_files.txt 2> /dev/null`
+23.  `grep -R ' ll'`
+24.  history.log est situé dans `/var/log/apt/history.log`
+25.  Locate ne peut pas trouver mon nouveau fichier car il se base sur une liste existante de fichier, et il faut qu'elle s'actualise pour prendre en compte mon nouveau fichier
+
+# Exercice 3. Découverte de l'éditeur de texte
+
+1.  Pour copier le fichier syslog dans notre répertoire, il faut écrire `cp /var/log/syslog /home/User`
+2.  Pour remplacer kernel par noyau, il faut utiliser dans le fichier `CTRL + \`
+3.  Il faut ssélectionner les 10 lignes, les couper avec `CTRL + K`et les coller à la fin avec `CTRL + U`
+4.  Pour annuler l'action, il faut taper `ALT + U`
+5.  Pour enregistrer, il faut taper `CTRL + X` puis `y +ENTER`
+
+# Exercice 4. Personnalisation du shell
+
+1.  Pour la copie, `cp ~/.bashrc /basrc_bak`
+2.  Simple modification
+3.  `source .bashrc`
+4.  `[\033[01;35m\] [\t] [\033[00m\] [\033[01:32m\] \u@\h\ [\033[01;00m\] :\\033\01;36m\]\w\`
